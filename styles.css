@@ -399,10 +399,13 @@ p a {
 }
 
 .FAQ li {
-	color: #888;
 	list-style: none;
 	padding: 16px 0;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.FAQ li span {
+	color: #888;
 }
 
 .FAQ p{
