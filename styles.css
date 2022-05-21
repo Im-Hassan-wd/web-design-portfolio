@@ -395,7 +395,7 @@ p a {
 
 .FAQ ul{
 	max-width: 500px;
-
+	margin-bottom: 64px;
 }
 
 .FAQ li {
