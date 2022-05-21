@@ -408,6 +408,17 @@ p a {
 	color: #888;
 }
 
+.FAQ li button {
+	display: inline;
+	background: none;
+	padding: 0 4px;
+	color: #FC3A79;
+	font-weight: bold;
+	font-size: 22px;
+	cursor: pointer;
+	border: none;
+}
+
 .FAQ p{
 	padding: 8px 16px;
 }
