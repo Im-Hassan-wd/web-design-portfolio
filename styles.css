@@ -136,9 +136,9 @@ a.email {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 128px 0;
+	margin: 128px auto;
 	color: #261f22;
-	padding: 0 24px;
+	
 }
 
 .hero-section h1 {
@@ -181,6 +181,9 @@ a.email {
 section.my-work {
 	padding-top: 72px;
 	transition: 0.5s all ease-in-out;
+}
+section.my-work .container {
+	flex-direction: column;
 }
 section.transition-bg {
 	background: #261f22;
