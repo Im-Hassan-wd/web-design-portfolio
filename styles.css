@@ -201,18 +201,23 @@ section.transition-bg {
 	position: relative;
 }
 
-.icon-wrapper {
+.icon-1, .icon-2{
 	width: 24px;
-}
-
-.preview {
 	position: absolute;
 	top: 8px;
 	left: 8px;
 	z-index: 10;
 }
 
-.icon-wrapper img {
+.icon-2 {
+	right: 8px;
+}
+
+.preview {
+	
+}
+
+.icon-1 img, .icon-2 img {
 	width: 100%;
 }
 
