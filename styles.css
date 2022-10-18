@@ -198,6 +198,22 @@ section.transition-bg {
 
 .my-work .work {
 	margin: 64px 0;
+	position: relative;
+}
+
+.icon-wrapper {
+	width: 24px;
+}
+
+.preview {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	z-index: 10;
+}
+
+.icon-wrapper img {
+	width: 100%;
 }
 
 .cta {
