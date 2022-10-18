@@ -261,6 +261,17 @@ section.transition-bg {
 	margin-top: 64px;
 }
 
+/* A B O U T  M E  P A G E*/
+.about-me {
+	margin: 128px auto;
+}
+.about-me .container {
+	display: block;
+}
+
+.about-me h1 {
+	color: #261f22;
+}
 /*____media query start____ */
 
 @media (min-width: 200px) {
