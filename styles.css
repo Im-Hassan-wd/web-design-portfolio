@@ -71,7 +71,7 @@ header {
 	align-items: center;
 }
 
-.logo-wrap, .info-wrap, .info, .social {
+.logo-wrap, .info-wrap, .info {
 	display: flex;
 	align-items: center;
 }
@@ -259,6 +259,7 @@ section.transition-bg {
 		position: relative;
 		z-index: 2;
 		cursor: pointer;
+		width: 100%;
 	}
 	nav {
 		position: fixed;
