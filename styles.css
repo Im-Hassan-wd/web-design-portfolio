@@ -315,6 +315,9 @@ section.transition-bg {
 	h6 {
 		font-size: 20px;
 	}
+	.logo {
+		margin-right: 0px;
+	}
 
 }
 
