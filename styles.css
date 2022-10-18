@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap');
 
+html {
+	scroll-behavior: smooth;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -39,6 +42,11 @@ h5 {
 
 h6 {
 	font-size: 21px;
+}
+
+a {
+	color: #261f22;
+	text-decoration: none;
 }
 
 p {
@@ -201,7 +209,7 @@ section.transition-bg {
 	position: relative;
 }
 
-.icon-1, .icon-2{
+.icon-1{
 	width: 24px;
 	position: absolute;
 	top: 8px;
@@ -217,7 +225,7 @@ section.transition-bg {
 	
 }
 
-.icon-1 img, .icon-2 img {
+.icon-1 img{
 	width: 100%;
 }
 
