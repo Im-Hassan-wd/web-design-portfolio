@@ -71,13 +71,8 @@ header {
 	align-items: center;
 }
 
-.logo-wrap, .info-wrap, .info {
-	display: flex;
-	align-items: center;
-}
-
 .logo {	
-	margin-right: 16px;
+	/* margin-right: 16px; */
 }
 
 nav ul {
@@ -259,7 +254,6 @@ section.transition-bg {
 		position: relative;
 		z-index: 2;
 		cursor: pointer;
-		width: 100%;
 	}
 	nav {
 		position: fixed;
