@@ -292,28 +292,40 @@ section.transition-bg {
 
 }
 
-.our-work {
+.our-goal-container {
+	background: #f5f5f5;
+
+}
+
+.our-goal {
 	max-width: 1200px;
 	margin: 64px auto;
 	padding: 8px 32px;
 }
 
-.our-work h3{
+.our-goal h3{
 	max-width: 480px;
 	color: #261f22;
 	margin: 64px 0;
 }
 
-.our-work h6, .our-work p {
+.our-goal h6, .our-goal p {
 	color: #261f22;
 }
 
-.our-work .w {
+.our-goal .w, .our-work {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+	margin-bottom: 64px;
 }
 
-.our-work p {
+.our-work {
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.our-goal p {
 	max-width: 480px;
 }
 /*____media query start____ */
