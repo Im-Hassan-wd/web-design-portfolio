@@ -277,6 +277,15 @@ section.transition-bg {
 	color: #261f22;
 	max-width: 768px;
 }
+
+.hobbies {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hobbies img{
+	width: 100%;
+}
 /*____media query start____ */
 
 @media (min-width: 200px) {
