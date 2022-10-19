@@ -292,14 +292,13 @@ section.transition-bg {
 
 }
 
-.our-goal-container {
+.our-goal-container{
 	background: #f5f5f5;
-
 }
 
-.our-goal {
+.our-goal, .our-work-container {
 	max-width: 1200px;
-	margin: 64px auto;
+	margin: 128px auto;
 	padding: 8px 32px;
 }
 
