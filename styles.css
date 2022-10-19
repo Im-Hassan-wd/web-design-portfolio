@@ -272,6 +272,11 @@ section.transition-bg {
 .about-me h1 {
 	color: #261f22;
 }
+
+.about-me p{
+	color: #261f22;
+	max-width: 768px;
+}
 /*____media query start____ */
 
 @media (min-width: 200px) {
