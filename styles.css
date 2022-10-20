@@ -2,6 +2,7 @@
 :root {
 	--primary: #FC3A79;
 	--secondary: #FE572E;
+	--black: #261f22;
 }
 html { 
 	scroll-behavior: smooth;
@@ -48,7 +49,7 @@ h6 {
 }
 
 a {
-	color: #261f22;
+	color: var(--black);
 	text-decoration: none;
 }
 
@@ -65,7 +66,7 @@ p {
 	primary - #fc3a79
 	secondary - #
 	brand gradient -
-	black - #261f22 
+	black - var(--black) 
 */
 
 /*____header section start____*/
@@ -99,7 +100,7 @@ nav li{
 
 nav a {
 	text-decoration: none;
-	color: #261f22;
+	color: var(--black);
 	transform: scale(0.5);
 }
 
@@ -145,14 +146,14 @@ a.email {
 	justify-content: center;
 	align-items: center;
 	margin: 128px auto;
-	color: #261f22;
+	color: var(--black);
 	
 }
 
 .hero-section h1 {
 	max-width: 600px;
 	text-align: center;
-	color: #261f22;
+	color: var(--black);
 }
 
 .hero-section h3 {
@@ -168,7 +169,7 @@ a.email {
 	max-width: 450px;
 	margin: 16px 0;
 	text-align: center;
-	/* color: #261f22; */
+	/* color: var(--black); */
 }
 
 .hero-button {
@@ -194,7 +195,7 @@ section.my-work .container {
 	flex-direction: column;
 }
 section.transition-bg {
-	background: #261f22;
+	background: var(--black);
 	color: #fff;
 	transition: 1s all ease-in-out;
 }
@@ -273,13 +274,13 @@ section.transition-bg {
 }
 
 .about-me h2 {
-	color: #261f22;
+	color: var(--black);
 	line-height: normal;
 }
 
 
 .about-me p{
-	color: #261f22;
+	color: var(--black);
 	max-width: 768px;
 }
 
@@ -313,12 +314,12 @@ p a {
 
 .our-goal h3, .FAQ h3{
 	max-width: 480px;
-	color: #261f22;
+	color: var(--black);
 	margin: 64px 0;
 }
 
 .our-goal h6, .our-goal p {
-	color: #261f22;
+	color: var(--black);
 }
 
 .our-goal .w, .our-work {
@@ -347,7 +348,7 @@ p a {
 
 .skills-button button:nth-child(2) {
 	background: #f5f5f5;
-	color: #261f22;
+	color: var(--black);
 }
 
 .skills-button {
@@ -361,7 +362,7 @@ p a {
 	height: 38px;
 	border: none;
 	border-radius: 50px;
-	background: #261f22;
+	background: var(--black);
 	color: #fff;
 }
 
@@ -424,6 +425,7 @@ p a {
 
 .FAQ p{
 	padding: 8px 16px;
+	color: var(--black);
 }
 
 .form-area {
@@ -433,6 +435,7 @@ p a {
 
 .form-area h3 {
 	font-weight: bold;
+	color: var(--black);
 }
 
 .form-area p {
