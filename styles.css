@@ -269,9 +269,11 @@ section.transition-bg {
 	display: block;
 }
 
-.about-me h1 {
+.about-me h2 {
 	color: #261f22;
+	line-height: normal;
 }
+
 
 .about-me p{
 	color: #261f22;
@@ -358,6 +360,7 @@ section.transition-bg {
 
 #design, #development {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 16px;
 	margin: 64px 0;
