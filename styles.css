@@ -333,6 +333,7 @@ section.transition-bg {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding: 8px 32px;
 }
 
 .skills-button button:nth-child(2) {
@@ -356,8 +357,7 @@ section.transition-bg {
 }
 
 #design, #development {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
 	margin: 64px 0;
