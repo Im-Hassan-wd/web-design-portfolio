@@ -230,7 +230,7 @@ section.transition-bg {
 }
 
 .cta {
-	margin: 64px auto;
+	margin: 128px auto;
 	max-width: 1200px;
 	padding: 0 32px;
 }
@@ -314,13 +314,13 @@ section.transition-bg {
 
 .our-goal .w, .our-work {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 32px;
 	margin-bottom: 64px;
 }
 
 .our-work {
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 }
 
