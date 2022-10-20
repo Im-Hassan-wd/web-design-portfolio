@@ -280,6 +280,10 @@ section.transition-bg {
 	max-width: 768px;
 }
 
+p a {
+	text-decoration: underline;
+}
+
 .hobbies {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
