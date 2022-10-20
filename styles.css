@@ -355,7 +355,7 @@ section.transition-bg {
 	color: #fff;
 }
 
-#design {
+#design, #development {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	flex-wrap: wrap;
@@ -363,7 +363,7 @@ section.transition-bg {
 	margin: 64px 0;
 }
 
-#design li {
+#design li, #development li {
 	display: flex;
 	align-items: center;
 	background: #f5f5f5;
@@ -375,7 +375,7 @@ section.transition-bg {
 	border-radius: 8px;
 }
 
-#design img{
+#design img, #development img{
 	width: 50px;
 	height: 50px;
 }
