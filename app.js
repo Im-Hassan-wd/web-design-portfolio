@@ -23,8 +23,14 @@ function bgTransition() {
 const previewProject = () => {
    projects.forEach((project, i) => {
     project.addEventListener('click', function () {
+        const dataCode = this.children[0].getAttribute('data-code');
+        const dataDemo = this.children[0].getAttribute('data-demo');
+        console.log(dataCode, dataDemo)
+
         const popup1 = previewPopup.children[0];
         const popup2 = previewPopup.children[1];
+        popup2.children[0].href = dataCode;
+        popup2.children[1].href = dataDemo;
         previewPopup.classList.add("active") ;
         popup1.classList.add("active") ;
         popup2.classList.add("active") ;

@@ -212,6 +212,7 @@ section.transition-bg {
 .my-work .work {
 	margin: 64px 0;
 	position: relative;
+	cursor: pointer;
 }
 
 .preview-container {
