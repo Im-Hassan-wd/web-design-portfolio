@@ -291,7 +291,7 @@ section.transition-bg {
 
 .preview-popup a:nth-child(2) {
 	background: none;
-	color: #fff;
+	color: #333;
 }
 
 .cta {
@@ -561,7 +561,7 @@ body > div.form-area-container > section > div > a:nth-child(3) {
 	body > div > button > span.first-span {
 		margin-right: 5px;
 	}
-	.preview-popup, .close-popup {
+	.preview-wrap {
 		min-width: 90%;
 	}
 }
