@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap');
 :root {
-	--primary: #FC3A79;
-	--secondary: #FE572E;
+	--primary: #5368df;
+	--secondary: #2A4AFF;
 	--black: #261f22;
 }
 html { 
@@ -81,10 +81,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.logo {	
-	/* margin-right: 16px; */
 }
 
 nav ul {
@@ -184,6 +180,7 @@ a.email {
 	border-radius: 10px;
 	font-size: 16px;
 	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+	color: #fff;
 }
 /*____header section end____*/
 
@@ -229,42 +226,42 @@ section.transition-bg {
   pointer-events: none;
 }
 
+.preview-wrap {
+	position: absolute;
+	bottom: 0;
+	transition: 1s ease;
+	transform: translateY(200px);
+	min-width: 30%;
+	min-height: 10vh;
+}
+
 .preview-popup {
-  position: absolute;
-  bottom: 0;
-  background: white;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: 1s ease;
-  transform: translateY(200px);
-  min-width: 30%;
-  min-height: 10vh;
 }
 
 .close-popup {
-  position: absolute;
-  bottom: 15%;
   background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
-  transform: translateY(200px);
   margin-bottom: 5px;
   min-width: 30%;
 }
 
-.preview-popup.active, .close-popup.active {
-  transform: translateY(0px);
-  transition: 1s ease;
+.preview-container.active {
+	opacity: 1;
+	pointer-events: all;
 }
 
-.preview-container.active {
-  opacity: 1;
-  pointer-events: all;
+.preview-wrap.active {
   transition: 1s ease;
+  transform: translateY(0px);
 }
 
 .close-popup button {
@@ -279,20 +276,22 @@ section.transition-bg {
 
 .preview-popup a {
 	display: inline-block;
-	background: var(--primary);
+	background: linear-gradient(90deg, var(--secondary) 22.5%, var(--primary) 60%);
 	padding: 8px 10px;
 	margin: 8px 0;
 	width: 120px;
 	border-radius: 8px;
-	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 4px #252b4633;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	color: #fff;
 }
 
 .preview-popup a:nth-child(2) {
 	background: none;
+	color: #fff;
 }
 
 .cta {
@@ -325,6 +324,7 @@ section.transition-bg {
 	box-shadow: 0px 100px 80px rgba(38, 31, 34, 0.0167767), 0px 50.0488px 40.0391px rgba(38, 31, 34, 0.0243888), 0px 30.1471px 24.1177px rgba(38, 31, 34, 0.0300374), 0px 19.3198px 15.4559px rgba(38, 31, 34, 0.035), 0px 12.5216px 10.0172px rgba(38, 31, 34, 0.0399626), 0px 7.88218px 6.30574px rgba(38, 31, 34, 0.0456112), 0px 4.5288px 3.62304px rgba(38, 31, 34, 0.0532233), 0px 1.99324px 1.59459px rgba(38, 31, 34, 0.07);
 	border-radius: 50px;
 	margin-top: 64px;
+	color: #fff;
 }
 
 /* A B O U T  M E  P A G E*/
@@ -348,6 +348,7 @@ section.transition-bg {
 
 p a {
 	text-decoration: underline;
+	color: #5368df;
 }
 
 .hobbies {

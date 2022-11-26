@@ -3,7 +3,8 @@ const nav = document.querySelector('nav');
 const workSection = document.querySelector('.my-work');
 const projects = document.querySelectorAll('.work');
 const previewPopup = document.querySelector(".preview-container");
-const closePopup =  document.querySelector('.close-popup')
+const previewWrap = document.querySelector(".preview-wrap");
+const closePopup =  document.querySelector('.close-popup button')
 
 menu.addEventListener('click', () => {
     nav.classList.toggle('toggle-nav');
@@ -25,25 +26,18 @@ const previewProject = () => {
     project.addEventListener('click', function () {
         const dataCode = this.children[0].getAttribute('data-code');
         const dataDemo = this.children[0].getAttribute('data-demo');
-        console.log(dataCode, dataDemo)
+        previewWrap.children[1].children[0].href = dataCode;
+        previewWrap.children[1].children[1].href = dataDemo;
 
-        const popup1 = previewPopup.children[0];
-        const popup2 = previewPopup.children[1];
-        popup2.children[0].href = dataCode;
-        popup2.children[1].href = dataDemo;
-        previewPopup.classList.add("active") ;
-        popup1.classList.add("active") ;
-        popup2.classList.add("active") ;
+        previewWrap.classList.add('active');
+        previewPopup.classList.add('active');
     })
    }) 
 }
 
 closePopup.addEventListener('click', () => {
-    const popup1 = previewPopup.children[0];
-    const popup2 = previewPopup.children[1];
-    previewPopup.classList.remove("active") ;
-    popup1.classList.remove("active") ;
-    popup2.classList.remove("active") ;  
+    previewWrap.classList.remove('active');
+    previewPopup.classList.remove('active'); 
 })
 
 previewProject();
