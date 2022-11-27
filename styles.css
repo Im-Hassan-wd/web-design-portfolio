@@ -561,7 +561,6 @@ p a {
 form button {
 	width: 100%;
 	display: flex;
-	margin: 16px;
 	transform: scale(.9);
 	transition: 0.5s ease-in-out;
 }
