@@ -77,7 +77,7 @@ header {
 .container {
 	max-width: 1200px;
 	margin: 0px auto;
-	padding: 8px 32px;
+	padding: 8px 24px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -182,6 +182,12 @@ a.email {
 	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 	color: #fff;
 }
+
+.hero-button:hover {
+	letter-spacing: 1px;
+	transition: 0.5s;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
 /*____header section end____*/
 
 /*____my work start____*/
@@ -210,6 +216,12 @@ section.transition-bg {
 	margin: 64px 0;
 	position: relative;
 	cursor: pointer;
+	transform: scale(0.95);
+}
+
+.my-work .work:hover {
+	transform: scale(1);
+	transition: 0.5s ease;
 }
 
 .preview-container {
@@ -318,13 +330,21 @@ section.transition-bg {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 24px 48px;
-	height: 24px;
-	background: linear-gradient(90deg, var(--secondary) 22.5%, var(--primary) 60%);
 	box-shadow: 0px 100px 80px rgba(38, 31, 34, 0.0167767), 0px 50.0488px 40.0391px rgba(38, 31, 34, 0.0243888), 0px 30.1471px 24.1177px rgba(38, 31, 34, 0.0300374), 0px 19.3198px 15.4559px rgba(38, 31, 34, 0.035), 0px 12.5216px 10.0172px rgba(38, 31, 34, 0.0399626), 0px 7.88218px 6.30574px rgba(38, 31, 34, 0.0456112), 0px 4.5288px 3.62304px rgba(38, 31, 34, 0.0532233), 0px 1.99324px 1.59459px rgba(38, 31, 34, 0.07);
-	border-radius: 50px;
+	display: inline-block;
+	background: linear-gradient(90deg, var(--secondary) 22.5%, var(--primary) 60%);
+	padding: 16px 24px;
+	margin: 8px 0;
 	margin-top: 64px;
+	width: 120px;
+	border-radius: 8px;
 	color: #fff;
+}
+
+.cta button:hover {
+	letter-spacing: 1px;
+	transition: 0.5s;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* A B O U T  M E  P A G E*/
@@ -496,6 +516,32 @@ p a {
 	justify-content: space-between;
 }
 
+.form-area label {
+	margin: 16px;
+	display: block;
+}
+
+.form-area span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-area input {
+	border: none;
+	background: #f5f5f5;
+	padding: 16px;
+	border-radius: 5px;
+	width: 270px;
+}
+
+.form-area textarea {
+	border: none;
+	background: #f5f5f5;
+	padding: 16px;
+	border-radius: 5px;
+	width: 100%;
+}
+
 .form-area h3 {
 	font-weight: bold;
 	color: var(--black);
@@ -511,6 +557,14 @@ p a {
 	margin: 32px 8px 0 0;
 }
 
+.name-email {
+	display: flex;
+}
+
+.message {
+	margin-right: 40px;
+}
+
 body > div.form-area-container > section > div > a:nth-child(3) {
 	color: var(--primary);
 }
@@ -520,6 +574,16 @@ body > div.form-area-container > section > div > a:nth-child(3) {
 
 
 /*____media query start____ */
+
+@media (max-width: 900px) {
+	.name-email {
+		flex-direction: column;
+	}
+
+	.form-area input {
+		width: 300px;
+	}
+}
 
 @media (max-width: 505px) {
 	.menu {
