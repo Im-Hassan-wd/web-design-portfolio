@@ -447,6 +447,7 @@ p a {
 	border-radius: 50px;
 	background: var(--black);
 	color: #fff;
+	cursor: pointer;
 }
 
 #design, #development {
