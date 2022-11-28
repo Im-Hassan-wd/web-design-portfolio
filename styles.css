@@ -525,9 +525,11 @@ p a {
 .form-area span {
 	display: block;
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 .form-area input {
+	font-family: 'Maven Pro', sans-serif;
 	border: none;
 	background: #f5f5f5;
 	padding: 16px;
@@ -536,6 +538,7 @@ p a {
 }
 
 .form-area textarea {
+	font-family: 'Maven Pro', sans-serif;
 	border: none;
 	background: #f5f5f5;
 	padding: 16px;

@@ -28,6 +28,7 @@ const previewProject = () => {
         const dataDemo = this.children[0].getAttribute('data-demo');
         previewWrap.children[1].children[0].href = dataCode;
         previewWrap.children[1].children[1].href = dataDemo;
+        console.log(dataCode, dataDemo)
 
         previewWrap.classList.add('active');
         previewPopup.classList.add('active');
