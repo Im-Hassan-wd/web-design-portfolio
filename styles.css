@@ -145,8 +145,8 @@ a.email {
 
 .social li:nth-child(1)::before {
 	content: "\f099";
-	color: #2A4AFF;
-	border-bottom: 4px solid #2A4AFF;
+	color: #1da1f2;
+	border-bottom: 1px solid #1da1f2;
 }
 .social li:nth-child(2)::before {
 	content: "\f16d";
@@ -157,13 +157,13 @@ a.email {
 	#bc1888 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	border-bottom: 4px solid #dc2743;
+	border-bottom: 1px solid #dc2743;
 }
 
 .social li:nth-child(3)::before {
 	content: "\f08c";
 	color: #1da1f2;
-	border-bottom: 4px solid #1da1f2;
+	border-bottom: 1px solid #1da1f2;
 }
 
 .social li:hover::before {
