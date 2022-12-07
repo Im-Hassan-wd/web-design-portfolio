@@ -120,6 +120,10 @@ a.email {
 	align-items: center;
 }
 
+.social li {
+	list-style: none;
+}
+
 .social svg{
 	width: 32px;
 	margin: 0 8px;
