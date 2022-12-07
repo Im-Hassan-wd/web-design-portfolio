@@ -1,5 +1,6 @@
 const menu = document.querySelector('.menu');
 const nav = document.querySelector('nav');
+const social = document.querySelector('.social');
 const workSection = document.querySelector('.my-work');
 const projects = document.querySelectorAll('.work');
 const previewPopup = document.querySelector(".preview-container");
@@ -8,6 +9,7 @@ const closePopup =  document.querySelector('.close-popup button')
 
 menu.addEventListener('click', () => {
     nav.classList.toggle('toggle-nav');
+    social.classList.toggle('active');
 });
 
 window.addEventListener('scroll', bgTransition)

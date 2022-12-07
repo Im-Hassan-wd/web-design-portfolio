@@ -121,6 +121,10 @@ a.email {
 	position: relative;
 }
 
+.social.active {
+	display: none;
+}
+
 .social li {
 	list-style: none;
 	position: relative;
@@ -129,7 +133,7 @@ a.email {
 
 .social li a .fa-brands {
 	color: #222;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .social li::before {
@@ -140,7 +144,7 @@ a.email {
 	height: 0;
 	overflow: hidden;
 	transition: 0.5s ease-in-out;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .social li:nth-child(1)::before {
