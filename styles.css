@@ -118,10 +118,56 @@ a.email {
 	margin-left: 32px;
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 
 .social li {
 	list-style: none;
+	position: relative;
+	margin: 0 16px;
+}
+
+.social li a .fa-brands {
+	color: #222;
+	font-size: 2rem;
+}
+
+.social li::before {
+	font-family: "FontAwesome";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0;
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+	font-size: 2rem;
+}
+
+.social li:nth-child(1)::before {
+	content: "\f099";
+	color: #2A4AFF;
+	border-bottom: 4px solid #2A4AFF;
+}
+.social li:nth-child(2)::before {
+	content: "\f16d";
+	background-image: linear-gradient(45deg, #f09433 0%, 
+	#e6683c 25%, 
+	#dc2743 50%, 
+	#cc2366 57%, 
+	#bc1888 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-bottom: 4px solid #dc2743;
+}
+
+.social li:nth-child(3)::before {
+	content: "\f08c";
+	color: #1da1f2;
+	border-bottom: 4px solid #1da1f2;
+}
+
+.social li:hover::before {
+	height: 100%;
 }
 
 .social svg{
