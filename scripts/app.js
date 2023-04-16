@@ -26,8 +26,8 @@ function bgTransition() {
 const previewProject = () => {
   projects.forEach((project, i) => {
     project.addEventListener("click", function () {
-      const dataCode = this.children[0].getAttribute("data-code");
-      const dataDemo = this.children[0].getAttribute("data-demo");
+      const dataCode = project.querySelector("img").getAttribute("data-code");
+      const dataDemo = project.querySelector("img").getAttribute("data-demo");
       previewWrap.children[1].children[0].href = dataCode;
       previewWrap.children[1].children[1].href = dataDemo;
 
