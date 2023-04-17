@@ -171,6 +171,7 @@ a.email {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-bottom: 1px solid #dc2743;
+  background-clip: text;
 }
 
 .social li:nth-child(3)::before {
@@ -238,7 +239,6 @@ a.email {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .hero-section p,
@@ -449,6 +449,10 @@ form button {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.cta button a {
+  color: #fff;
+}
+
 /* A B O U T  M E  P A G E*/
 .about-me {
   margin: 128px auto;
@@ -481,7 +485,6 @@ p a {
 
 .hobbies img {
   width: 100%;
-  /* filter: drop-shadow(0px 100px 80px rgba(38, 31, 34, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(38, 31, 34, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(38, 31, 34, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(38, 31, 34, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(38, 31, 34, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(38, 31, 34, 0.0196802)); */
   box-shadow: 0px 100px 80px rgba(38, 31, 34, 0.07);
 }
 
