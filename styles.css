@@ -309,6 +309,10 @@ section.transition-bg {
   transition: 0.5s ease;
 }
 
+img.placeholder {
+  object-fit: cover;
+}
+
 .preview-container {
   position: fixed;
   top: 0;
